@@ -103,13 +103,12 @@ function Landing() {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
-                                'Fullstack Developer']}
-                            typeSpeed={40}
-                            backSpeed={50}
+                                'Frontend Developer'
+                                ,]}
+                            typeSpeed={45}
+                            backSpeed={70}
                             className={styles.typedHeader}
-                            style={{ color: theme.primary, fontSize: '20px' }}
+                            style={{ color: theme.primary, fontSize: '25px' }}
                             loop
                         />
                         <p>{headerData.desciption}</p>

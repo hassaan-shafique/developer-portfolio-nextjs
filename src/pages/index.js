@@ -1,6 +1,8 @@
 import React from 'react';
 import {
-  About, Blog, Contacts, Education,
+  About, 
+  Blog,
+   Contacts, Education,
   Experience, Landing, Navbar, Projects, Skills
 } from '../components';
 import BackToTop from '../components/back-to-top/back-to-top';
@@ -10,21 +12,21 @@ function HomePage({ blogs }) {
 
   return (
     <>
-      <BackToTop />
+      {/* <BackToTop /> */}
       <ChangeTheme />
       <Navbar />
       <Landing />
       <About />
       <Experience />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Education />
-      <Blog blogs={blogs} />
+      {/* <Blog blogs={blogs} /> */}
       <Contacts />
     </>
   )
 }
-
+   
 export async function getStaticProps() {
   const res = await fetch('https://dev.to/api/articles?username=said7388');
   const data = await res.json();
@@ -32,7 +34,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      blogs: filteredBlogs
+      // blogs: filteredBlogs
     },
   };
 }

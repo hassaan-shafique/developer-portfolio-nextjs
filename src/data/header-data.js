@@ -1,9 +1,9 @@
 
 export const headerData = {
-    name: 'ABU SAID',
+    name: 'M.Hassaan Shafique',
     title: "Hello! I am",
-    desciption: "Hello! I am ABU SAID, a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. ",
-    image: 'https://i.ibb.co/ZmdNH6x/abu-said.jpg',
+    desciption: "My name is Muhammad Hassaan Shafique. I am a front-end developer with experience in Next.js, React.js, Tailwind CSS, Git, and GitHub. I am always open to learning new things and expanding my skillset. ",
+     image: '/hassaan.jpg',
     imagebw: 'https://i.ibb.co/Cw2Xp90/abu-said-bw.jpg',
     resumePdf: 'https://docs.google.com/document/d/1MkkoRX98FS47CaEyeodyPzi4OkW8SH7Gv55f4MQkHV8/'
 }

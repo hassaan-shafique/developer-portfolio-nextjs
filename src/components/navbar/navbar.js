@@ -117,7 +117,7 @@ function Navbar() {
                                         className="text-xl sm:text-2xl"
                                     />
                                     <span className="w-6/12 text-[1.125rem] sm:text-[1.3rem] font-semibold">
-                                        Resume
+                                        Education
                                     </span>
                                 </div>
                             </Link>
@@ -138,7 +138,7 @@ function Navbar() {
                             </div>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <Link
                                 href='/#blog'
                             >
@@ -151,7 +151,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </Link>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <Link

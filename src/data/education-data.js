@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Noakhali Government College',
+        institution: 'Capital University of Science and Technology',
         course: 'Bachelor Degree',
-        startYear: '2020',
-        endYear: 'Present'
+        startYear: '2019',
+        endYear: '2023'
     },
     {
         id: 2,
-        institution: 'Noakhali Islamia Kamil Madrasah',
-        course: 'Higher Secondary',
-        startYear: '2018',
-        endYear: '2020'
+        institution: 'Punjab Group of Colleges, Ayub Park Campuss',
+        course: 'pre-engineering',
+        startYear: '2016',
+        endYear: '2018'
     },
     {
         id: 3,
-        institution: 'Baitus Saif Islamia Madrasah',
-        course: 'Secondary School',
-        startYear: '2008',
-        endYear: '2018'
+        institution: 'Scientific Model School',
+        course: 'Matric',
+        startYear: '2014',
+        endYear: '2016'
     },
 ]
