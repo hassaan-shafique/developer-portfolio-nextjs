@@ -119,15 +119,15 @@ function Landing() {
                                     href={headerData.resumePdf}
                                     download='resume'
                                     target='_blank'
-                                    rel='noreferrer'
+                                    rel=''
                                 >
                                     <button
                                         className="sm:w-[180px] text-[#1D9BF0] 
                                         rounded-[30px] no-underline	w-36 text-base 
                                         font-medium h-12 border-[3px] border-[#1D9BF0] 
                                         transition duration-100 ease-out 
-                                        hover:bg-[#8B98A5] hover:text-[#15202B]
-                                         hover:border-[#8B98A5] "
+                                        hover:bg-[#3e93e8] hover:text-[#030608]
+                                         hover:border-[#010203] "
                                     >
                                         Download CV
                                     </button>
